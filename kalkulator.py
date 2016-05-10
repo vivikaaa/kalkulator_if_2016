@@ -1,8 +1,9 @@
-def dodawanie():
-	a=int(input()
-	b = int(input())
-	print(a+b)
 def get_info():
 	print("To jest program kalkulator. Autor:uep")
+def dodawanie(a,b):
+	return a + b
+	
 get_info()
-dodawanie()
+a = int(input())
+b = int(input())
+print(dodawanie(a,b))
